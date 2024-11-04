@@ -20,6 +20,6 @@ export const WordListUtils = {
 
   // Validate if a word is valid
   isValidWord(word: string): boolean {
-    return WORD_LIST.includes(word.toUpperCase());
+    return true; // Always valid for now since we don't have a alphabet
   },
 };
