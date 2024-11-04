@@ -9,7 +9,7 @@ A real-time multiplayer version of the popular word-guessing game Wordle, built 
 
 1. Clone the repository
    ```
-   git clone https://github.com/yourusername/multiplayer-wordle.git
+   git clone https://github.com/hunterhe7/wordle.git
    ```
 
 2. Navigate to the server directory
