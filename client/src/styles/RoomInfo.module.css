@@ -1,0 +1,16 @@
+.container {
+  text-align: center;
+}
+
+.playersList {
+  margin-top: 10px;
+}
+
+.playersList ul {
+  list-style: none;
+  padding: 0;
+}
+
+.playersList li {
+  margin: 5px 0;
+} 

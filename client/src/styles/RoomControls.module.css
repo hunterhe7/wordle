@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.joinContainer {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.input {
+  padding: 10px;
+  border: 2px solid #d3d6da;
+  border-radius: 4px;
+  font-size: 1rem;
+  width: 200px;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #878a8c;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #6aaa64;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.error {
+  color: #dc3545;
+  font-size: 14px;
+  margin-top: 5px;
+} 
