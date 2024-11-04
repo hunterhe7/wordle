@@ -5,43 +5,42 @@ A real-time multiplayer version of the popular word-guessing game Wordle, built 
 ## Demo
 ![Demo](./image.png)
 
-### Server Setup
+## Features
 
-1. Clone the repository
-   ```
-   git clone https://github.com/hunterhe7/wordle.git
-   ```
+### Multiplayer Features
 
-2. Navigate to the server directory
-   ```
-   cd server
-   ```
+1. **Room-based System**
+   - Players can create or join rooms using room codes
+   - Maximum 2 players per room for optimal gameplay experience
+   - Host player has control over starting the game
 
-3. Install dependencies
-   ```
-   npm install
-   ```
+2. **Shared Word**
+   - All players in a room guess the same word
+   - Promotes fair competition and allows players to compare progress
 
-4. Start the server
-   ```
-   npm run dev
-   ```
+3. **Core Wordle Gameplay**
+   - 5-letter word guessing with classic Wordle rules
+   - Visual feedback for letter statuses (correct, present, absent)
+   - On-screen keyboard with color-coded feedback
+   - 6 attempts maximum per game
 
-### Client Setup
+4. **Win/Lose Conditions**
+   - Players can win individually by guessing the word correctly
+   - Game continues until all players either win or run out of attempts
 
-1. Navigate to the client directory
-   ```
-   cd client
-   ```
 
-2. Install dependencies
-   ```
-   npm install
-   ```
 
-3. Start the development server
-   ```
-   npm start
-   ```
 
-The client will be available at `http://localhost:3000`
+
+## Run the project
+
+```
+git clone https://github.com/hunterhe7/wordle.git
+cd server
+npm install
+npm run start
+
+cd client
+npm install
+npm start
+```
