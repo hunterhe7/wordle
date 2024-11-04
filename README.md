@@ -28,9 +28,9 @@ A real-time multiplayer version of the popular word-guessing game Wordle, built 
    - Players can win individually by guessing the word correctly
    - Game continues until all players either win or run out of attempts
 
-
-
-
+### Enhancements(not implemented)
+- Add chat between players
+- Add scoreboard
 
 ## Run the project
 
@@ -42,5 +42,5 @@ npm run start
 
 cd client
 npm install
-npm start
+npm run start
 ```
